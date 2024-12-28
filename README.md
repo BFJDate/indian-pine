@@ -12,6 +12,7 @@ Indian pine原标签图
 决策树图像
 
 ![image](https://github.com/user-attachments/assets/e89f575f-ebd0-42a4-a117-8ebc3657195c)
+
 经CART分类后的标签图
 
 ![image](https://github.com/user-attachments/assets/81272968-eb2d-42a8-b191-af12604c13d0)
@@ -34,11 +35,13 @@ SVM分类器采用OvR（One-vs-the-Rest）分类策略,采用网格搜索（Grid
 
 # 改进
 在神经网络方法的基础上，对数据添加位置特征，每个点加了3个特征，第一个是该点周围3x3范围内的特征平均值；第二个是该点周围5x5范围内的特征平均值；第三个是该点周围7x7范围内的特征平均值。同时使用5折交叉验证的方法进行训练
-最终结果得到最高平均正确率为0.96823
+
+# 最终结果得到最高平均正确率为0.96823
 
 混淆矩阵
 
 ![image](https://github.com/user-attachments/assets/26641010-90af-4252-8b0d-3111135ed91d)
+
 预测结果图
 
 ![image](https://github.com/user-attachments/assets/e15e71c5-8acf-480c-847d-e7acf65e9a97)
